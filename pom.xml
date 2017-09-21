@@ -27,6 +27,12 @@
 			<organizationUrl>http://www.jarredweb.com</organizationUrl>
 		</developer>
 	</developers>
+	
+	<scm>
+		<connection>scm:git:git://github.com/m41na/webjar-archetype.git</connection>
+		<developerConnection>scm:git:ssh://github.com:m41na/webjar-archetype.git</developerConnection>
+		<url>https://github.com/m41na/webjar-archetype</url>
+	</scm>
 
 	<build>
 		<extensions>
