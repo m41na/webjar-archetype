@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd" name="webjar-quickstart"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileSets>
+    <fileSet filtered="true" packaged="true" encoding="UTF-8">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.java</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>src/main/resource</directory>
+      <includes>
+        <include>**/*.ico</include>
+        <include>**/*.json</include>
+        <include>**/*.ftl</include>
+        <include>**/*.sql</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>www</directory>
+      <includes>
+        <include>**/*.html</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>www/theme</directory>
+      <includes>
+        <include>**/*.html</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory>www/admin</directory>
+      <includes>
+        <include>**/*.html</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/vendor</directory>
+      <includes>
+        <include>**/*.otf</include>
+        <include>**/*.css</include>
+        <include>**/*.scss</include>
+        <include>**/*.svg</include>
+        <include>**/*.ttf</include>
+        <include>**/*.js</include>
+        <include>**/*.woff2</include>
+        <include>**/*.less</include>
+        <include>**/*.eot</include>
+        <include>**/*.woff</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>data/data</directory>
+      <includes>
+        <include>**/*.sqlite3-shm</include>
+        <include>**/*.sqlite3</include>
+        <include>**/*.sqlite3-wal</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/scss</directory>
+      <includes>
+        <include>**/*.scss</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/media</directory>
+      <includes>
+        <include>**/*.jpg</include>
+        <include>**/*.png</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/admin</directory>
+      <includes>
+        <include>**/*.jpg</include>
+        <include>**/*.otf</include>
+        <include>**/*.css</include>
+        <include>**/*.ico</include>
+        <include>**/*.svg</include>
+        <include>**/*.ttf</include>
+        <include>**/*.png</include>
+        <include>**/*.js</include>
+        <include>**/*.woff2</include>
+        <include>**/*.eot</include>
+        <include>**/*.woff</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/css</directory>
+      <includes>
+        <include>**/*.css</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/img</directory>
+      <includes>
+        <include>**/*.jpg</include>
+        <include>**/*.svg</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/js</directory>
+      <includes>
+        <include>**/*.js</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www</directory>
+      <includes>
+        <include>**/*.</include>
+        <include>**/*.ico</include>
+        <include>**/*.twig</include>
+        <include>**/*.md</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>www/theme</directory>
+      <includes>
+        <include>**/*.jpg</include>
+        <include>**/*.</include>
+        <include>**/*.otf</include>
+        <include>**/*.css</include>
+        <include>**/*.svg</include>
+        <include>**/*.scss</include>
+        <include>**/*.gitignore</include>
+        <include>**/*.ttf</include>
+        <include>**/*.js</include>
+        <include>**/*.less</include>
+        <include>**/*.eot</include>
+        <include>**/*.woff</include>
+        <include>**/*.md</include>
+        <include>**/*.php</include>
+        <include>**/*.woff2</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>tools/bin</directory>
+      <includes>
+        <include>**/*.bat</include>
+        <include>**/*.sh</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>logs</directory>
+      <includes>
+        <include>**/*.log</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>tools/lib</directory>
+      <includes>
+        <include>**/*.jar</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory>.settings</directory>
+      <includes>
+        <include>**/*.prefs</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>mail-config.properties</include>
+        <include>.classpath</include>
+        <include>app-config.properties</include>
+        <include>.project</include>
+      </includes>
+    </fileSet>
+    <fileSet encoding="UTF-8">
+      <directory></directory>
+      <includes>
+        <include>truststore_client</include>
+        <include>keystore_server</include>
+        <include>.gitignore</include>
+        <include>server.cert</include>
+        <include>webjar-starter.db</include>
+        <include>truststore_server</include>
+        <include>README.md</include>
+        <include>LICENSE</include>
+        <include>keystore_client</include>
+        <include>site-content.json</include>
+        <include>client.cert</include>
+        <include>dyna-content.json</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
